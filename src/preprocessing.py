@@ -1,6 +1,7 @@
 """
 Pipeline Fase 1: ingesta multifuente, resolución de entidades, deduplicación,
-filtro temporal (>=2000), esquema maestro con placeholders, mirroring y exportación.
+filtro temporal (>=2000), esquema maestro con placeholders y exportación.
+El mirroring A/B se aplica en Fase 2 (src.feature_engineering).
 """
 
 from __future__ import annotations
@@ -669,8 +670,7 @@ def write_preprocessing_report(
         "=== Resumen preprocessing (Fase 1) ===",
         f"Filas tras merge: {stats.get('rows_after_merge', 'n/a')}",
         f"Filas tras filtro >=2000: {stats.get('rows_after_filter', 'n/a')}",
-        f"Filas antes de mirror: {stats.get('rows_before_mirror', 'n/a')}",
-        f"Filas finales (con mirror): {stats.get('rows_final', 'n/a')}",
+        f"Filas finales (sin mirror; mirroring en Fase 2): {stats.get('rows_final', 'n/a')}",
         f"Distribución result (final): {stats.get('result_counts', 'n/a')}",
         f"MD5 match_dataset.csv: {_file_md5(output_csv)}",
         f"Equipos no mapeados (únicos): {len(unmapped)}",
@@ -726,12 +726,9 @@ def main() -> None:
 
     assigned = assign_team_a_b(filtered)
     with_placeholders = add_schema_placeholders(assigned)
-    stats["rows_before_mirror"] = len(with_placeholders)
-
-    mirrored = mirror_dataset(with_placeholders)
 
     out_path = PROCESSED_DIR / "match_dataset.csv"
-    final_df = validate_and_save(mirrored, out_path)
+    final_df = validate_and_save(with_placeholders, out_path)
     stats["rows_final"] = len(final_df)
     stats["result_counts"] = dict(Counter(final_df["result"].astype(int).tolist()))
 
