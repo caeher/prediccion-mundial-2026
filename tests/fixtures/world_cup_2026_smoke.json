@@ -1,0 +1,82 @@
+{
+  "sim_date": "2026-06-11",
+  "hosts": [
+    "USA",
+    "CAN",
+    "MEX"
+  ],
+  "groups": {
+    "A": [
+      "USA",
+      "CAN",
+      "MEX",
+      "ALB"
+    ],
+    "B": [
+      "AND",
+      "ARM",
+      "AUS",
+      "AZE"
+    ],
+    "C": [
+      "BER",
+      "BFA",
+      "BGR",
+      "BIH"
+    ],
+    "D": [
+      "CAY",
+      "CGO",
+      "CHL",
+      "CHN"
+    ],
+    "E": [
+      "CIV",
+      "CMR",
+      "COD",
+      "CRI"
+    ],
+    "F": [
+      "CYP",
+      "CZE",
+      "DZA",
+      "EGY"
+    ],
+    "G": [
+      "ESP",
+      "FIN",
+      "FRO",
+      "GAB"
+    ],
+    "H": [
+      "GEO",
+      "GHA",
+      "GUA",
+      "GUM"
+    ],
+    "I": [
+      "HND",
+      "IRN",
+      "ISL",
+      "JAM"
+    ],
+    "J": [
+      "JPN",
+      "KOR",
+      "KWT",
+      "LBY"
+    ],
+    "K": [
+      "LTU",
+      "LVA",
+      "MAR",
+      "MDA"
+    ],
+    "L": [
+      "MLT",
+      "NEP",
+      "NGA",
+      "NOR"
+    ]
+  }
+}
