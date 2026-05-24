@@ -1,13 +1,11 @@
-from pathlib import Path
-import pandas as pd
-import ssl
-import requests
-import zipfile
-import io
-import os
-from git import Repo
+from __future__ import annotations
 
-ssl._create_default_https_context = ssl._create_unverified_context
+import os
+from pathlib import Path
+
+import pandas as pd
+import requests
+from git import Repo
 
 DATA_DIR = Path("data/raw")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -17,6 +15,7 @@ INTERNATIONAL_RESULTS_URL = "https://raw.githubusercontent.com/martj42/internati
 WORLDCUP_REPO_URL = "https://github.com/jfjelstul/worldcup"
 WORLDCUP_BRANCH = "master"
 WORLDCUP_DATA_DIR = "data-csv"
+
 
 def download_international_results():
     print("Descargando partidos internacionales...")
@@ -71,9 +70,30 @@ def download_worldcup_data_csv():
         if temp_repo_dir.exists():
             force_rmtree(temp_repo_dir)
 
+def download_kaggle_fifa_world_cup():
+    print("Descargando dataset de la FIFA desde Kaggle...")
+    target_dir = DATA_DIR / "fifa-world-cup"
+    target_dir.mkdir(exist_ok=True)
+
+    # Verificamos si ya existen archivos en la carpeta para evitar descargas redundantes
+    if any(target_dir.iterdir()):
+        print(f"Los datos de Kaggle ya existen en {target_dir}. Omitiendo descarga.")
+        return
+
+    try:
+        from kaggle.api.kaggle_api_extended import KaggleApi
+        api = KaggleApi()
+        api.authenticate()
+        api.dataset_download_files('abecklas/fifa-world-cup', path=str(target_dir), unzip=True)
+        print(f"Dataset de Kaggle guardado en: {target_dir}")
+    except Exception as e:
+        print(f"Error al descargar desde Kaggle: Asegúrate de tener configurado kaggle.json o las variables de entorno.")
+        print(f"Detalle del error: {e}")
+
 def main() -> None:
     download_international_results()
     download_worldcup_data_csv()
+    download_kaggle_fifa_world_cup()
 
 if __name__ == "__main__":
     main()
