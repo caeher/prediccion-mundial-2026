@@ -11,9 +11,16 @@ Proyecto base para análisis exploratorio, prototipado en notebooks y scripts mo
 │   ├── data_acquisition.py
 │   ├── preprocessing.py
 │   ├── feature_engineering.py
-│   ├── train_model.py
-│   ├── monte_carlo.py
+│   ├── model/
+│   │   ├── __init__.py
+│   │   ├── calibration.py
+│   │   └── train.py
+│   ├── simulation/
+│   │   ├── monte_carlo.py
+│   │   └── tournament_rules.py
 │   └── utils.py
+├── tests/
+│   └── fixtures/       # CSV mínimo para smoke test de entrenamiento
 ├── requirements.txt
 ├── environment.yml
 └── README.md
@@ -105,6 +112,23 @@ python -m src.feature_engineering
 ```
 
 Actualiza `match_dataset.csv` con métricas A/B (ELO, rank, etc., una fila por partido) y escribe `data/processed/features_dataset.csv` con variables diferenciales, `sample_weight` (time decay), `tournament_weight` y mirroring. Ver `reports/feature_engineering_summary.txt`.
+
+## Modelado y calibración (Fase 3)
+
+Con `features_dataset.csv` ya generado (cobertura temporal suficiente para validación 2019–2022):
+
+```powershell
+python -m src.model.train
+```
+
+Salidas: `models/final_xgboost.pkl`, `reports/training_summary.txt` (Log-Loss y Brier multiclase en test; split temporal estricto; validación/test sin filas espejadas `_m`). Detalle en `docs/STEP.md`.
+
+Para comprobar el pipeline sin dataset completo:
+
+```powershell
+python tests/fixtures/generate_smoke_features.py
+python -m src.model.train --features-path tests/fixtures/features_calib_smoke.csv
+```
 
 ### Error SSL al conectar con Kaggle
 
