@@ -20,6 +20,13 @@ PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 EXTERNAL_DIR = PROJECT_ROOT / "data" / "external"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
+# Figuras desde notebooks (implementación en ``notebook_figures`` para imports fiables en Jupyter).
+from src.notebook_figures import (  # noqa: E402
+    FIGURES_DIR,
+    NOTEBOOK_FIGURE_DIRS,
+    save_notebook_figure,
+)
+
 
 def setup_logging(level: int = logging.INFO) -> None:
     """Configura logging básico en consola (idempotente si ya hay handlers)."""
