@@ -94,7 +94,7 @@ Con datos ya presentes en `data/raw/`, genera el dataset maestro espejado y el m
 python -m src.preprocessing
 ```
 
-Salidas principales: `data/external/countries_mapping.json`, `data/processed/match_dataset.csv`, `reports/preprocessing_summary.txt`. Detalle del flujo en [docs/STEP.md](docs/STEP.md).
+Salidas principales: `data/external/countries_mapping.json`, `data/processed/match_dataset.csv`, `reports/preprocessing_summary.txt`.
 
 ### Error SSL al conectar con Kaggle
 
