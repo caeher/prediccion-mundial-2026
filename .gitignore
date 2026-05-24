@@ -37,6 +37,10 @@ htmlcov/
 # Datos (mantener solo marcador de carpeta)
 data/*
 !data/.gitkeep
+!data/external/
+data/external/*
+!data/external/world_cup_2026.json
+!data/external/annex_c_wc2026.json
 
 # Secretos y credenciales
 .env
@@ -61,5 +65,3 @@ checkpoints/
 *.swo
 Thumbs.db
 .DS_Store
-
-STEP.md
