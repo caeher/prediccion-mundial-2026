@@ -1,0 +1,35 @@
+=== Resumen simulación Monte Carlo (Fase 4) ===
+Iteraciones: 1000
+Semilla: 42
+Modelo: C:\Users\echoe\Desktop\lab01\models\final_xgboost.pkl
+MD5 modelo: 70755558f99c50e9d8cdcc96147061e7
+Grupos JSON: tests\fixtures\world_cup_2026_smoke.json
+sim_date: 2026-06-11
+
+Grupos resueltos (A–L):
+  A: USA, CAN, MEX, ALB
+  B: AND, ARM, AUS, AZE
+  C: BER, BFA, BGR, BIH
+  D: CAY, CGO, CHL, CHN
+  E: CIV, CMR, COD, CRI
+  F: CYP, CZE, DZA, EGY
+  G: ESP, FIN, FRO, GAB
+  H: GEO, GHA, GUA, GUM
+  I: HND, IRN, ISL, JAM
+  J: JPN, KOR, KWT, LBY
+  K: LTU, LVA, MAR, MDA
+  L: MLT, NEP, NGA, NOR
+
+Top 10 probabilidad campeón (Wilson 95%):
+  ARM: p=0.0310 [0.0219, 0.0437]
+  USA: p=0.0310 [0.0219, 0.0437]
+  EGY: p=0.0270 [0.0186, 0.0390]
+  BIH: p=0.0270 [0.0186, 0.0390]
+  BER: p=0.0260 [0.0178, 0.0378]
+  LBY: p=0.0260 [0.0178, 0.0378]
+  ALB: p=0.0250 [0.0170, 0.0366]
+  BFA: p=0.0250 [0.0170, 0.0366]
+  NOR: p=0.0250 [0.0170, 0.0366]
+  ISL: p=0.0250 [0.0170, 0.0366]
+
+Columnas features modelo (20): diff_elo, diff_fifa_rank, diff_top5_ratio, diff_win_ratio, diff_xg, elo_A, elo_B, fifa_rank_A, fifa_rank_B, is_neutral, squad_value_A, squad_value_B, squad_value_ratio, top5_ratio_A, top5_ratio_B, tournament_weight, win_ratio_50_A, win_ratio_50_B, xg_computed_A, xg_computed_B
