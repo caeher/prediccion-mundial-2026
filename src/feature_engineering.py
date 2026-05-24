@@ -1,6 +1,7 @@
 """
-Fase 2: enriquecer `match_dataset.csv` con ELO, ratios y proxies usando solo `data/raw/`.
-Ejecutar después de `python -m src.preprocessing`.
+Fase 2: enriquecer `match_dataset.csv` con ELO, ratios y proxies; variables
+diferenciales, time decay, encoding ordinal de torneo, mirroring y exportación
+a `data/processed/features_dataset.csv`. Ejecutar después de `python -m src.preprocessing`.
 """
 
 from __future__ import annotations
@@ -17,6 +18,7 @@ import numpy as np
 import pandas as pd
 
 from src.preprocessing import (
+    MIRROR_SWAP_PAIRS,
     _known_codes_from_mapping,
     classify_tournament,
     load_martj42,
@@ -52,6 +54,22 @@ FEATURE_COLS_A = [
     "xg_computed_A",
 ]
 FEATURE_COLS_B = [c.replace("_A", "_B") for c in FEATURE_COLS_A]
+
+DIFF_SIGN_COLS = [
+    "diff_elo",
+    "diff_fifa_rank",
+    "diff_top5_ratio",
+    "diff_win_ratio",
+    "diff_xg",
+]
+
+TOURNAMENT_ORDINAL: dict[str, int] = {
+    "friendly": 1,
+    "other": 2,
+    "qualifier": 3,
+    "continental": 4,
+    "world_cup": 5,
+}
 
 
 def _load_mapping() -> tuple[dict[str, str], set[str]]:
@@ -458,6 +476,59 @@ def impute_by_confederation_year(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
+def add_diff_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Variables relativas A vs B (rúbrica Fase 2.1)."""
+    out = df.copy()
+    out["diff_elo"] = out["elo_A"] - out["elo_B"]
+    out["diff_fifa_rank"] = out["fifa_rank_B"] - out["fifa_rank_A"]
+    out["squad_value_ratio"] = out["squad_value_A"] / (out["squad_value_B"] + 1e-5)
+    out["diff_top5_ratio"] = out["top5_ratio_A"] - out["top5_ratio_B"]
+    out["diff_win_ratio"] = out["win_ratio_50_A"] - out["win_ratio_50_B"]
+    out["diff_xg"] = out["xg_computed_A"] - out["xg_computed_B"]
+    return out
+
+
+def calculate_time_decay(df: pd.DataFrame, target_date: str = "2025-03-01") -> pd.DataFrame:
+    """Peso temporal w = exp(-lambda * t); t en años hasta target_date (Fase 2.2)."""
+    out = df.copy()
+    out["date"] = pd.to_datetime(out["date"])
+    target_dt = pd.to_datetime(target_date)
+    out["years_ago"] = (target_dt - out["date"]).dt.days / 365.25
+    lambda_decay = 0.2408
+    out["sample_weight"] = np.exp(-lambda_decay * out["years_ago"])
+    out["sample_weight"] = out["sample_weight"].clip(upper=1.0)
+    return out
+
+
+def encode_tournament_type(df: pd.DataFrame) -> pd.DataFrame:
+    """Ordinal encoding de tournament_type (Fase 2.3)."""
+    out = df.copy()
+    out["tournament_weight"] = (
+        out["tournament_type"].astype(str).map(TOURNAMENT_ORDINAL).fillna(2).astype(np.int8)
+    )
+    return out
+
+
+def apply_data_mirroring(df: pd.DataFrame) -> pd.DataFrame:
+    """Duplica filas invirtiendo perspectiva A/B y el target (Fase 2.4)."""
+    df_mirrored = df.copy()
+    for col in DIFF_SIGN_COLS:
+        if col in df_mirrored.columns:
+            df_mirrored[col] = -df_mirrored[col]
+    if "squad_value_ratio" in df_mirrored.columns:
+        df_mirrored["squad_value_ratio"] = 1.0 / (df_mirrored["squad_value_ratio"] + 1e-5)
+    for ca, cb in MIRROR_SWAP_PAIRS:
+        if ca in df_mirrored.columns and cb in df_mirrored.columns:
+            tmp = df_mirrored[ca].copy()
+            df_mirrored[ca] = df_mirrored[cb]
+            df_mirrored[cb] = tmp
+    flip = {0: 2, 1: 1, 2: 0}
+    df_mirrored["result"] = df_mirrored["result"].map(flip).astype(np.int8)
+    mid = df_mirrored["match_id"].astype(str)
+    df_mirrored["match_id"] = np.where(mid.str.endswith("_m"), mid, mid + "_m")
+    return pd.concat([df, df_mirrored], ignore_index=True)
+
+
 def _file_md5(path: Path) -> str:
     h = hashlib.md5()
     with path.open("rb") as f:
@@ -470,7 +541,10 @@ def _write_report(
     path: Path,
     nan_before: dict[str, int],
     nan_after: dict[str, int],
-    out_csv: Path,
+    match_csv: Path,
+    features_csv: Path,
+    features_df: pd.DataFrame,
+    rows_pre_mirror: int,
     wr_hist: pd.DataFrame,
     elo_hist: pd.DataFrame,
 ) -> None:
@@ -484,11 +558,56 @@ def _write_report(
     lines.append("NaN por columna (después de imputación):")
     for k, v in sorted(nan_after.items()):
         lines.append(f"  {k}: {v}")
-    lines.append(f"MD5 match_dataset.csv: {_file_md5(out_csv)}")
+    lines.append(f"MD5 match_dataset.csv: {_file_md5(match_csv)}")
+    lines.append(f"MD5 features_dataset.csv: {_file_md5(features_csv)}")
+
+    lines.append(f"Filas pre-mirror (1 por partido): {rows_pre_mirror}")
+    lines.append(f"Filas post-mirror (features_dataset): {len(features_df)}")
+    rc = features_df["result"].astype(int).value_counts().sort_index()
+    rc_dict = {int(k): int(v) for k, v in rc.items()}
+    lines.append(f"Distribución result (post-mirror): {rc_dict}")
+    if 0 in rc.index and 2 in rc.index and rc[0] == rc[2]:
+        lines.append("Balance 0 vs 2: simétrico (OK)")
+    else:
+        lines.append("Balance 0 vs 2: revisar (esperado rc[0]==rc[2])")
+
+    sw = features_df["sample_weight"]
+    lines.append(
+        f"sample_weight — min={sw.min():.4f} median={sw.median():.4f} max={sw.max():.4f}"
+    )
+    fdates = pd.to_datetime(features_df["date"])
+    by_year = features_df.assign(_y=fdates.dt.year).groupby("_y")["sample_weight"].mean()
+    lines.append("sample_weight media por año (muestra):")
+    for y, m in list(by_year.items())[:8]:
+        lines.append(f"  {y}: {m:.4f}")
+    if len(by_year) > 8:
+        lines.append(f"  ... ({len(by_year)} años en total)")
+
+    diff_corr_cols = [
+        "diff_elo",
+        "diff_fifa_rank",
+        "squad_value_ratio",
+        "diff_top5_ratio",
+        "diff_win_ratio",
+        "diff_xg",
+        "result",
+    ]
+    sub = features_df[[c for c in diff_corr_cols if c in features_df.columns]]
+    if len(sub.columns) >= 2:
+        corr = sub.corr(numeric_only=True)["result"].drop("result", errors="ignore")
+        lines.append("Correlación Pearson con result (variables diferenciales + ratio):")
+        for name, val in corr.items():
+            if pd.isna(val):
+                lines.append(f"  {name}: n/a (sin varianza / n pequeño)")
+            else:
+                lines.append(f"  {name}: {val:.4f}")
 
     # Equipos sin 50 partidos previos (muestra): win_ratio basado en <50
     wr_nan = wr_hist[wr_hist["win_ratio_50"].isna()]["team"].unique()[:40]
-    lines.append("Equipos con al menos una aparición sin partidos previos (win_ratio NaN antes impute): " + ", ".join(map(str, wr_nan)))
+    lines.append(
+        "Equipos con al menos una aparición sin partidos previos (win_ratio NaN antes impute): "
+        + ", ".join(map(str, wr_nan))
+    )
 
     # Distribución ELO por confederación (según último elo_after en intl)
     conf = load_team_confederation()
@@ -543,7 +662,7 @@ def main() -> None:
 
     nan_after = {c: int(enriched[c].isna().sum()) for c in feature_cols if c in enriched.columns}
 
-    final_cols = [
+    match_cols = [
         "match_id",
         "date",
         "team_A",
@@ -565,17 +684,65 @@ def main() -> None:
         "xg_computed_B",
         "result",
     ]
-    for c in final_cols:
+    for c in match_cols:
         if c not in enriched.columns:
             enriched[c] = np.nan
-    enriched[final_cols].to_csv(out_path, index=False)
+    enriched[match_cols].to_csv(out_path, index=False)
     logger.info("Guardado %s (%d filas)", out_path, len(enriched))
+
+    rows_pre_mirror = len(enriched)
+    feats = add_diff_features(enriched)
+    feats = calculate_time_decay(feats, target_date="2025-03-01")
+    feats = encode_tournament_type(feats)
+    feats = apply_data_mirroring(feats)
+    feats = feats.drop(columns=["years_ago"], errors="ignore")
+
+    features_path = PROCESSED_DIR / "features_dataset.csv"
+    feature_final_cols = [
+        "match_id",
+        "date",
+        "team_A",
+        "team_B",
+        "is_neutral",
+        "tournament_type",
+        "tournament_weight",
+        "source",
+        "elo_A",
+        "fifa_rank_A",
+        "squad_value_A",
+        "top5_ratio_A",
+        "win_ratio_50_A",
+        "xg_computed_A",
+        "elo_B",
+        "fifa_rank_B",
+        "squad_value_B",
+        "top5_ratio_B",
+        "win_ratio_50_B",
+        "xg_computed_B",
+        "diff_elo",
+        "diff_fifa_rank",
+        "squad_value_ratio",
+        "diff_top5_ratio",
+        "diff_win_ratio",
+        "diff_xg",
+        "sample_weight",
+        "result",
+    ]
+    for c in feature_final_cols:
+        if c not in feats.columns:
+            feats[c] = np.nan
+    feats["date"] = pd.to_datetime(feats["date"]).dt.strftime("%Y-%m-%d")
+    feats[feature_final_cols].to_csv(features_path, index=False)
+    logger.info("Guardado %s (%d filas)", features_path, len(feats))
 
     _write_report(
         REPORTS_DIR / "feature_engineering_summary.txt",
         nan_before,
         nan_after,
         out_path,
+        features_path,
+        feats,
+        rows_pre_mirror,
         wr_hist,
         elo_hist,
     )

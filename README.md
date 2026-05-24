@@ -94,7 +94,17 @@ Con datos ya presentes en `data/raw/`, genera el dataset maestro espejado y el m
 python -m src.preprocessing
 ```
 
-Salidas principales: `data/external/countries_mapping.json`, `data/processed/match_dataset.csv`, `reports/preprocessing_summary.txt`.
+Salidas principales: `data/external/countries_mapping.json`, `data/processed/match_dataset.csv` (una fila por partido), `reports/preprocessing_summary.txt`. El dataset espejado para entrenamiento se genera en Fase 2: `python -m src.feature_engineering` → `data/processed/features_dataset.csv`.
+
+## Feature engineering (Fase 2)
+
+Con `match_dataset.csv` ya generado:
+
+```powershell
+python -m src.feature_engineering
+```
+
+Actualiza `match_dataset.csv` con métricas A/B (ELO, rank, etc., una fila por partido) y escribe `data/processed/features_dataset.csv` con variables diferenciales, `sample_weight` (time decay), `tournament_weight` y mirroring. Ver `reports/feature_engineering_summary.txt`.
 
 ### Error SSL al conectar con Kaggle
 

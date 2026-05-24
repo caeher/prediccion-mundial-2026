@@ -1,0 +1,8 @@
+=== Resumen preprocessing (Fase 1) ===
+Filas tras merge: 46573
+Filas tras filtro >=2000: 23685
+Filas finales (sin mirror; mirroring en Fase 2): 23616
+Distribución result (final): {0: 11088, 1: 5581, 2: 6947}
+MD5 match_dataset.csv: 54e0ff06d69ad3cfedaab650cafd48ae
+Equipos no mapeados (únicos): 46
+Muestra no mapeados: rn">bosnia_and_herzegovina, rn">republic_of_ireland, rn">serbia_and_montenegro, rn">trinidad_and_tobago, rn">united_arab_emirates, saint_kitts_and_nevis, saint_lucia, saint_pierre_and_miquelon, saint_vincent_and_the_grenadines, sao_tome_and_principe, sapmi, sark, saugeais, sealand, seborga, seychelles, shetland, silesia, singapore, somaliland, south_ossetia, south_yemen, surrey, szekely_land, taiwan, tamil_eelam, tibet, ticino, turks_and_caicos_islands, two_sicilies, united_koreans_in_japan, united_states_virgin_islands, uzbekistan, vatican_city, vietnam_republic, wallis_islands_and_futuna, west_papua, western_armenia, western_australia, western_isles, western_sahara, yemen_dpr, ynys_mon, yorkshire, yoruba_nation, zanzibar

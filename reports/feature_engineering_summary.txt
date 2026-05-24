@@ -1,0 +1,61 @@
+=== Resumen feature_engineering (Fase 2) ===
+NaN por columna (antes de imputación):
+  elo_A: 23616
+  elo_B: 23616
+  fifa_rank_A: 23616
+  fifa_rank_B: 23616
+  squad_value_A: 23616
+  squad_value_B: 23616
+  top5_ratio_A: 23616
+  top5_ratio_B: 23616
+  win_ratio_50_A: 23616
+  win_ratio_50_B: 23616
+  xg_computed_A: 23616
+  xg_computed_B: 23616
+NaN por columna (después de imputación):
+  elo_A: 0
+  elo_B: 0
+  fifa_rank_A: 0
+  fifa_rank_B: 0
+  squad_value_A: 0
+  squad_value_B: 0
+  top5_ratio_A: 0
+  top5_ratio_B: 0
+  win_ratio_50_A: 0
+  win_ratio_50_B: 0
+  xg_computed_A: 0
+  xg_computed_B: 0
+MD5 match_dataset.csv: c62d3c323b9898af7270036cad5c6bf5
+MD5 features_dataset.csv: 6af0e12d32b7711f7f87d720456d1fad
+Filas pre-mirror (1 por partido): 23616
+Filas post-mirror (features_dataset): 47232
+Distribución result (post-mirror): {0: 18035, 1: 11162, 2: 18035}
+Balance 0 vs 2: simétrico (OK)
+sample_weight — min=0.0023 median=0.0534 max=1.0000
+sample_weight media por año (muestra):
+  2000: 0.0026
+  2001: 0.0033
+  2002: 0.0043
+  2003: 0.0055
+  2004: 0.0070
+  2005: 0.0088
+  2006: 0.0113
+  2007: 0.0144
+  ... (27 años en total)
+Correlación Pearson con result (variables diferenciales + ratio):
+  diff_elo: -0.4999
+  diff_fifa_rank: -0.4805
+  squad_value_ratio: 0.0724
+  diff_top5_ratio: -0.0799
+  diff_win_ratio: -0.4109
+  diff_xg: -0.2273
+Equipos con al menos una aparición sin partidos previos (win_ratio NaN antes impute): ABK, AFG, AGO, AIA, ALA, ALB, ALD, AMB, AND, ARE, ARG, ARM, ART, ARU, ASA, AST, ASY, ATG, AUS, AUT, AYM, AZE, BAH, BAN, BDI, BEL, BEN, BER, BES, BFA, BGR, BHR, BHU, BIA, BIH, BLM, BLR, BLZ, BOL, BOT
+ELO final (último partido en intl) por confederación — count / mean / median:
+  AFC: n=13 mean=1663.1 median=1650.6
+  CAF: n=14 mean=1713.8 median=1736.4
+  CONCACAF: n=11 mean=1685.0 median=1685.4
+  CONMEBOL: n=9 mean=1921.3 median=1944.5
+  OFC: n=1 mean=1727.8 median=1727.8
+  UEFA: n=36 mean=1830.6 median=1809.0
+  UNK: n=201 mean=1385.2 median=1431.6
+Auditoría no-leakage: features unidos con merge_asof direction=backward y fecha_partido - 1 día como clave izquierda.
