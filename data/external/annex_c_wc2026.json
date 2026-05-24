@@ -1,0 +1,6437 @@
+[
+{
+"advancing_third_groups": "EFGHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"F",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "DFGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"I",
+"D",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "DEGHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"D",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "DEFHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "DEFGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"D",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "DEFGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "DEFGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "DEFGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "DEFGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "CFGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"I",
+"C",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CEGHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"C",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CEFHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"C",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CEFGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"C",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CEFGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CEFGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"C",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CEFGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "CEFGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"I",
+"C",
+"J",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDFHIJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"I",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDFGIJKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"I",
+"D",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDFGHJKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDFGHIKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"I",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDFGHIJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "CDFGHIJK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"C",
+"H",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"C",
+"J",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"H",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"C",
+"H",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"H",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "CDEGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"H",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFIJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"E",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFHJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"E",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFHIKL",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"I",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFHIJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"E",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "CDEFHIJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"E",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFGJKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFGIKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFGIJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"J",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "CDEFGIJK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"J",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFGHKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFGHJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"H",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "CDEFGHJK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"H",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFGHIL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "CDEFGHIK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "CDEFGHIJ",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"H",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "BFGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"F",
+"I",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BEGHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"B",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BEFHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"I",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BEFGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"I",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BEFGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BEFGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"F",
+"I",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BEFGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"H",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BEFGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"H",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"I",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDFHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDFGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDFGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDFGHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDFGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BDFGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"J",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"I",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"I",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"I",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"H",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BDEGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"H",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BDEFHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BDEFGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"J",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFGHKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "BDEFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"J",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFGHIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BDEFGHIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BDEFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"J",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"I",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCFHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCFGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"B",
+"C",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCFGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCFGHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCFGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCFGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"I",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"I",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"I",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCEGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"C",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCEFHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"J",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCEFGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"J",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFGHKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "BCEFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFGHIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCEFGHIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCEFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"I",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"B",
+"C",
+"J",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDGHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"I",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFIJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFHJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFHIKL",
+"slots_ABDE_GIKL": [
+"C",
+"I",
+"B",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFHIJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDFHIJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFGJKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFGIKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFGIJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDFGIJK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"J",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFGHKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFGHJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"H",
+"F",
+"L",
+"J"
+]
+},
+{
+"advancing_third_groups": "BCDFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"D",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFGHIL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDFGHIK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"D",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"I",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"C",
+"H",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"H",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"J",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"I",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"J",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"J",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEGHKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"H",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"D",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "BCDEGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"D",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEGHIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"H",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEGHIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"H",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"D",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEFJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"E",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFIKL",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"B",
+"D",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFIJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"E",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEFIJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"E",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFHKL",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"B",
+"D",
+"H",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFHJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"H",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "BCDEFHJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"H",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFHIL",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"B",
+"D",
+"H",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEFHIK",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"B",
+"D",
+"H",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFHIJ",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"H",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEFGKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"E",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFGJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"J",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "BCDEFGJK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"J",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFGIL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"E",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEFGIK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"E",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFGIJ",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"J",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "BCDEFGHL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"H",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "BCDEFGHK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"H",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "BCDEFGHJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"J",
+"F",
+"D",
+"E"
+]
+},
+{
+"advancing_third_groups": "BCDEFGHI",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"H",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "AFGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"I",
+"F",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "AEGHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"A",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "AEFHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"F",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "AEFGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"F",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "AEFGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"F",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "AEFGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"F",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "AEFGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"F",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "AEFGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"F",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"I",
+"D",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADFHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"I",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADFGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADFGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADFGHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"I",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADFGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ADFGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"D",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"D",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"D",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ADEGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"I",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ADEFHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ADEFGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFGHKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ADEFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"D",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFGHIL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ADEFGHIK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ADEFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"D",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"I",
+"C",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACFHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"I",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACFGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"J",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACFGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACFGHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"I",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACFGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACFGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"C",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"C",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"C",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACEGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"I",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACEFHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACEFGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFGHKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ACEFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFGHIL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACEFGHIK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACEFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"I",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"J",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDGHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"I",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFIJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"I",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"F",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"F",
+"I",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"F",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDFHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"F",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFGJKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFGIKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"I",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFGIJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDFGIJK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFGHKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"F",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFGHJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"H"
+]
+},
+{
+"advancing_third_groups": "ACDFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"D",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFGHIL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"F",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDFGHIK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"F",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"D",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"I",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"I",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"I",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"J",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEGHKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"D",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ACDEGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"D",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEGHIL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEGHIK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"D",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEFJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"E",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFIKL",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"I",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFIJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"E",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEFIJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"E",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFHKL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"F",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFHJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"F",
+"C",
+"A",
+"D",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ACDEFHJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"C",
+"A",
+"F",
+"D",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFHIL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"F",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEFHIK",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"F",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"E",
+"C",
+"A",
+"F",
+"D",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEFGKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFGJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ACDEFGJK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFGIL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEFGIK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"E",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFGIJ",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"J",
+"D",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ACDEFGHL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"F",
+"C",
+"A",
+"D",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ACDEFGHK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"C",
+"A",
+"F",
+"D",
+"K"
+]
+},
+{
+"advancing_third_groups": "ACDEFGHJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"J",
+"C",
+"A",
+"F",
+"D",
+"E"
+]
+},
+{
+"advancing_third_groups": "ACDEFGHI",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"E",
+"C",
+"A",
+"F",
+"D",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABGHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"A",
+"I",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABFHIJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"A",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABFGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"J",
+"B",
+"F",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABFGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"F",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABFGHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"A",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABFGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"F",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABFGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"F",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEHIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"A",
+"I",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEGIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"A",
+"I",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEGHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"A",
+"H",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEGHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"A",
+"I",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEGHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"A",
+"H",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABEGHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"A",
+"H",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"A",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"F",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABEFHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"A",
+"I",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABEFGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"F",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFGHKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"F",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"F",
+"A",
+"G",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABEFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"F",
+"A",
+"G",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFGHIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"F",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABEFGHIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"F",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABEFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"F",
+"A",
+"G",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDHIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"J",
+"B",
+"D",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDGHIKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"B",
+"D",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"I",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDFHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFGJKL",
+"slots_ABDE_GIKL": [
+"F",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFGIKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFGIJL",
+"slots_ABDE_GIKL": [
+"F",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDFGIJK",
+"slots_ABDE_GIKL": [
+"F",
+"J",
+"B",
+"D",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFGHKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABDFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"J",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFGHIL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDFGHIK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"I",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABDEIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"A",
+"I",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"D",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDEHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"A",
+"I",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDEGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEGHKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABDEGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"G",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEGHIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDEGHIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"G",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDEFJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDEFIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFHKL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFHJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABDEFHJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFHIL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDEFHIK",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"D",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDEFGKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFGJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABDEFGJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"F",
+"J",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFGIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABDEFGIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFGIJ",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"D",
+"A",
+"F",
+"I",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABDEFGHL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABDEFGHK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABDEFGHJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"E",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABDEFGHI",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"D",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCHIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"J",
+"B",
+"C",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCGIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"J",
+"B",
+"C",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCGHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCGHIKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"B",
+"C",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCGHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCGHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"J",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"I",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCFHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFGJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"F",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFGIKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFGIJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"F",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCFGIJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"F",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFGHKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"L",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCFGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"J",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFGHIL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCFGHIK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCFGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"I",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCEIJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"A",
+"I",
+"C",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEHJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEHIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"C",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEHIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCEHIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEGJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEGIKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"A",
+"I",
+"C",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEGIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCEGIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEGHKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"H",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"G",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCEGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"G",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEGHIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"H",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCEGHIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"H",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"G",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCEFJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCEFIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFHKL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFHJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCEFHJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFHIL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCEFHIK",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCEFGKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFGJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"F",
+"L",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCEFGJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"F",
+"J",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFGIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCEFGIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFGIJ",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"F",
+"I",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCEFGHL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCEFGHK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCEFGHJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"E",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCEFGHI",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDIJKL",
+"slots_ABDE_GIKL": [
+"I",
+"J",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDHJKL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDHIKL",
+"slots_ABDE_GIKL": [
+"H",
+"I",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDHIJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDHIJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDGJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDGIKL",
+"slots_ABDE_GIKL": [
+"I",
+"G",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDGIJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"G",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDGIJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"G",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDGHKL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDGHJL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"L",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDGHJK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"J",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDGHIL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDGHIK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDGHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"I",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDFJKL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFIKL",
+"slots_ABDE_GIKL": [
+"C",
+"I",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFIJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDFIJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFHKL",
+"slots_ABDE_GIKL": [
+"H",
+"F",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFHJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"H"
+]
+},
+{
+"advancing_third_groups": "ABCDFHJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"D",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFHIL",
+"slots_ABDE_GIKL": [
+"H",
+"F",
+"B",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDFHIK",
+"slots_ABDE_GIKL": [
+"H",
+"F",
+"B",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"D",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDFGKL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFGJL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDFGJK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"J",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFGIL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDFGIK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFGIJ",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"I",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDFGHL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"H"
+]
+},
+{
+"advancing_third_groups": "ABCDFGHK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"D",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDFGHJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"D",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDFGHI",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"D",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEJKL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEIKL",
+"slots_ABDE_GIKL": [
+"E",
+"I",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEIJL",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEIJK",
+"slots_ABDE_GIKL": [
+"E",
+"J",
+"B",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEHKL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEHJL",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"D",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCDEHJK",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"D",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEHIL",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEHIK",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEHIJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"D",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEGKL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"D",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEGJL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"D",
+"L",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDEGJK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"D",
+"J",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEGIL",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"D",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEGIK",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"D",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEGIJ",
+"slots_ABDE_GIKL": [
+"E",
+"G",
+"B",
+"C",
+"A",
+"D",
+"I",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDEGHL",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCDEGHK",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEGHJ",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"E",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDEGHI",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"D",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEFKL",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"B",
+"D",
+"A",
+"F",
+"L",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEFJL",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCDEFJK",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEFIL",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"B",
+"D",
+"A",
+"F",
+"L",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEFIK",
+"slots_ABDE_GIKL": [
+"C",
+"E",
+"B",
+"D",
+"A",
+"F",
+"I",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEFIJ",
+"slots_ABDE_GIKL": [
+"C",
+"J",
+"B",
+"D",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEFHL",
+"slots_ABDE_GIKL": [
+"H",
+"F",
+"B",
+"C",
+"A",
+"D",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCDEFHK",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"C",
+"A",
+"F",
+"D",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEFHJ",
+"slots_ABDE_GIKL": [
+"H",
+"J",
+"B",
+"C",
+"A",
+"F",
+"D",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCDEFHI",
+"slots_ABDE_GIKL": [
+"H",
+"E",
+"B",
+"C",
+"A",
+"F",
+"D",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEFGL",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"L",
+"E"
+]
+},
+{
+"advancing_third_groups": "ABCDEFGK",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"E",
+"K"
+]
+},
+{
+"advancing_third_groups": "ABCDEFGJ",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"E",
+"J"
+]
+},
+{
+"advancing_third_groups": "ABCDEFGI",
+"slots_ABDE_GIKL": [
+"C",
+"G",
+"B",
+"D",
+"A",
+"F",
+"E",
+"I"
+]
+},
+{
+"advancing_third_groups": "ABCDEFGH",
+"slots_ABDE_GIKL": [
+"H",
+"G",
+"B",
+"C",
+"A",
+"F",
+"D",
+"E"
+]
+}
+]
