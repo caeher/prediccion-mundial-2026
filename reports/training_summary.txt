@@ -1,0 +1,40 @@
+=== Resumen entrenamiento (XGBoost + isotónica) ===
+CSV entrada: C:\Users\echoe\Desktop\lab01\data\processed\features_dataset.csv
+Modelo: C:\Users\echoe\Desktop\lab01\models\final_xgboost.pkl
+
+Hiperparámetros XGBClassifier (base):
+  objective=multi:softprob, num_class=3, n_estimators=150, max_depth=4,
+  learning_rate=0.05, random_state=42, eval_metric=mlogloss, tree_method=hist, n_jobs=-1
+
+Calibración: IsotonicCalibratedClassifier (OvR isotónico + renorm sobre validación 2019–2022; equiv. a isotónica sklearn sin re-ajustar el XGB base; sklearn 1.8 sin cv='prefit').
+
+Features numéricas (orden alfabético):
+  diff_elo, diff_fifa_rank, diff_top5_ratio, diff_win_ratio, diff_xg, elo_A, elo_B, fifa_rank_A, fifa_rank_B, is_neutral, squad_value_A, squad_value_B, squad_value_ratio, top5_ratio_A, top5_ratio_B, tournament_weight, win_ratio_50_A, win_ratio_50_B, xg_computed_A, xg_computed_B
+
+Conteo filas por split:
+  train (year<=2018, con espejo): 34094
+  validation raw (2019–2022): 6780 | sin espejo: 3390
+  test raw (year>2022): 6358 | sin espejo: 3179
+
+Distribución result (train, con espejo): {0: 12983, 1: 8128, 2: 12983}
+Distribución result (validation, sin espejo): {0: 1645, 1: 771, 2: 974}
+Distribución result (test, sin espejo): {0: 1440, 1: 746, 2: 993}
+
+Métricas (log_loss con labels=[0,1,2]):
+  train: n=34094 log_loss=0.913746 brier_multiclass=0.536278
+  validation: n=3390 log_loss=0.854444 brier_multiclass=0.503564
+  test: n=3179 log_loss=0.936581 brier_multiclass=0.522196
+
+Importancia (base XGB, top 10):
+  diff_elo: 0.403034
+  diff_fifa_rank: 0.079029
+  top5_ratio_A: 0.055093
+  top5_ratio_B: 0.054429
+  squad_value_B: 0.044737
+  squad_value_A: 0.042921
+  is_neutral: 0.041090
+  squad_value_ratio: 0.040152
+  elo_B: 0.026694
+  elo_A: 0.025457
+
+MD5 modelo (final_xgboost.pkl): 6b061c52a6d057b397a0a8056fd80c94
