@@ -86,6 +86,16 @@ Alternativa: variables de entorno `KAGGLE_USERNAME` y `KAGGLE_KEY` (ver [documen
 
 Si la autenticación falla, el script imprimirá un aviso y continuará; los otros datasets igualmente se descargarán si sus fuentes responden.
 
+## Preprocesado (Fase 1)
+
+Con datos ya presentes en `data/raw/`, genera el dataset maestro espejado y el mapeo de países:
+
+```powershell
+python -m src.preprocessing
+```
+
+Salidas principales: `data/external/countries_mapping.json`, `data/processed/match_dataset.csv`, `reports/preprocessing_summary.txt`. Detalle del flujo en [docs/STEP.md](docs/STEP.md).
+
 ### Error SSL al conectar con Kaggle
 
 Al descargar desde Kaggle puede aparecer un error similar a:
