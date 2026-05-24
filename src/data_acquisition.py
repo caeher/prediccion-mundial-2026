@@ -28,6 +28,19 @@ def download_international_results():
     print(f"Dataset guardado en: {output_path}")
     print(f"Total partidos: {len(df)}")
 
+def force_rmtree(path):
+    import stat
+    import shutil
+    path = Path(path)
+    if not path.exists():
+        return
+    for root, dirs, files in os.walk(path, topdown=False):
+        for name in files:
+            os.chmod(os.path.join(root, name), stat.S_IWRITE)
+        for name in dirs:
+            os.chmod(os.path.join(root, name), stat.S_IWRITE)
+    shutil.rmtree(path)
+
 def download_worldcup_data_csv():
     print("Descargando archivos de data-csv desde el repositorio worldcup...")
 
@@ -42,8 +55,7 @@ def download_worldcup_data_csv():
     try:
         # Clonado superficial con sparse checkout para solo data-csv
         if temp_repo_dir.exists():
-            import shutil
-            shutil.rmtree(temp_repo_dir)
+            force_rmtree(temp_repo_dir)
         Repo.clone_from(WORLDCUP_REPO_URL, temp_repo_dir, branch=WORLDCUP_BRANCH, depth=1, multi_options=["--filter=blob:none"])
         repo = Repo(temp_repo_dir)
         repo.git.sparse_checkout('init', '--cone')
@@ -56,9 +68,8 @@ def download_worldcup_data_csv():
         print(f"Error al descargar o procesar worldcup data-csv: {e}")
     finally:
         # Limpieza del repo temporal si existe
-        import shutil
         if temp_repo_dir.exists():
-            shutil.rmtree(temp_repo_dir)
+            force_rmtree(temp_repo_dir)
 
 def main() -> None:
     download_international_results()
