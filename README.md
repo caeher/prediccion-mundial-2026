@@ -16,6 +16,7 @@ Proyecto base para análisis exploratorio, prototipado en notebooks y scripts mo
 │   │   ├── calibration.py
 │   │   └── train.py
 │   ├── simulation/
+│   │   ├── feature_provider.py
 │   │   ├── monte_carlo.py
 │   │   └── tournament_rules.py
 │   └── utils.py
@@ -129,6 +130,22 @@ Para comprobar el pipeline sin dataset completo:
 python tests/fixtures/generate_smoke_features.py
 python -m src.model.train --features-path tests/fixtures/features_calib_smoke.csv
 ```
+
+## Simulación Monte Carlo (Fase 4)
+
+Con el modelo entrenado y datos en `data/raw/` (idealmente `international_results` completo):
+
+```powershell
+python -m src.simulation.monte_carlo --iterations 10000 --groups data/external/world_cup_2026.json
+```
+
+Salidas: `reports/monte_carlo_top5.csv`, `reports/monte_carlo_summary.txt`. Los intervalos de confianza al 95% para probabilidades de título/final/semifinal usan la **aproximación binomial de Wilson**.
+
+- **Grupos editables:** [`data/external/world_cup_2026.json`](data/external/world_cup_2026.json) (`sim_date`, `hosts`, 12 grupos). Slots `TBD_*` se sustituyen por equipos con mejor ELO as-of no repetidos. Si el archivo no existe, se usa un **mock snake** con los 48 equipos de mayor ELO (requiere ≥48 equipos en el histórico previo a `sim_date`).
+- **Anexo C:** [`data/external/annex_c_wc2026.json`](data/external/annex_c_wc2026.json) (495 combinaciones oficiales). Opcional: `python scripts/parse_annex_c_wiki.py <tabla_wikipedia.txt>`.
+- **Smoke:** `python tests/fixtures/generate_smoke_groups.py` → `tests/fixtures/world_cup_2026_smoke.json`; luego `--groups tests/fixtures/world_cup_2026_smoke.json`.
+
+Detalle en [`docs/STEP.md`](docs/STEP.md) (Fase 4).
 
 ### Error SSL al conectar con Kaggle
 
